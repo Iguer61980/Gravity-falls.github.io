@@ -1,0 +1,17 @@
+body{
+    background-image: url(images/wallpaper_gravityfalls.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-color:rgba(0,0,0,0.6);
+    background-blend-mode:multiply;
+    height: 100vh;
+    margin: 0;
+}
+h1{
+    color:aliceblue;
+    text-shadow:2px 2px 8px black;
+    padding-left: 10%;
+    font-size:48px;
+
+}
