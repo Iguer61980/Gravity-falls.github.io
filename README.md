@@ -1,2 +1,2 @@
-# Gravity-falls.github.io
+# Gravity_falls.github.io
 Mistery Shack Website
