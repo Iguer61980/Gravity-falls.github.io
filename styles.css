@@ -1,10 +1,10 @@
 body{
     background-image: url(images/wallpaper_gravityfalls.png);
     background-size: cover;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-position: center;
-    background-color:rgba(0,0,0,0.6);
-    background-blend-mode:multiply;
+    background-color: rgba(0,0,0,0.6);
+    background-blend-mode: multiply;
     height: 100vh;
     margin: 0;
 
