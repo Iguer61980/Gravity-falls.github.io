@@ -23,5 +23,10 @@ nav{
     z-index:1000;
 }
 nav ul{
-    margin
+    margin:10px;
+    padding:10px;
+    list-style:none;
+    display:flex;
+    justify-content:space-around;
+    font-size:100%;
 }
