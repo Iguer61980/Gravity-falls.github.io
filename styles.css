@@ -1,3 +1,4 @@
+/*
 body{
     background-image: url(images/wallpaper_gravityfalls.png);
     background-size: cover;
@@ -9,6 +10,7 @@ body{
     margin: 0;
 
 }
+    */
 h1{
     color:aliceblue;
     text-shadow:2px 2px 8px black;
@@ -21,8 +23,8 @@ nav{
     position: sticky;
     top:0;
     z-index:1000;
+    width: 100%;
     
-    display: flex;
 }
 nav ul{
     margin: 10px;
@@ -36,7 +38,6 @@ nav ul{
 body {
   font-family: Arial, sans-serif;
   background: #f8f9fa;
-  display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -49,6 +50,7 @@ body {
   gap: 20px;
   width: 90%;
   max-width: 1000px;
+  text-align: center;
 }
 
 
