@@ -1,16 +1,29 @@
-/*
+
 body{
-    background-image: url(images/wallpaper_gravityfalls.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: rgba(0,0,0,0.6);
-    background-blend-mode: multiply;
+    
     height: 100vh;
     margin: 0;
+    font-family: Arial, sans-serif;
+}
+    
+main {
+  background-image: url(images/wallpaper_gravityfalls.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: multiply;
 
 }
-    */
+
+footer {
+
+
+
+
+}
+
+/*font styling*/
+
 h1{
     color:aliceblue;
     text-shadow:2px 2px 8px black;
@@ -35,15 +48,8 @@ nav ul{
     font-size: 100%;
 }
 
-body {
-  font-family: Arial, sans-serif;
-  background: #f8f9fa;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
 
-
+/*staff page styling*/
 .image-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -88,3 +94,8 @@ body {
   text-align: center;
   padding: 10px;
 }
+.image-container:hover .overlay {
+  opacity: 1;
+}
+
+*/
