@@ -4,14 +4,11 @@ body{
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
-}
-    
-main {
-  background-image: url(Images/wallpaper_gravityfalls.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-blend-mode:saturation;
+    background-image: url(Images/wallpaper_gravityfalls.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode:saturation;
 
 }
 
