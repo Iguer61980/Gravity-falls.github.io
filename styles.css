@@ -1,7 +1,7 @@
 
 body{
     
-    height: 130vh;
+    height: 150vh;
     margin: 0;
     font-family: Arial, sans-serif;
     background-image: url(Images/wallpaper_gravityfalls.png);
@@ -11,12 +11,8 @@ body{
     background-blend-mode:saturation;
 
 }
-
-footer {
-
-
-
-
+footer{
+  color:aliceblue
 }
 
 /*font styling*/
