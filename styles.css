@@ -24,20 +24,49 @@ h1{
     font-size: 48px;
 }
 nav{
-    background-color:#713d27;
-    padding: .5em;
+    background-color:rgba(91,51,14,0.9);
+    padding: 0.8em 0;
     position: sticky;
     top:0;
     z-index:1000;
     width: 100%;
-    
+    box-shadow:0 4px 12px rgba(0,0,0,0.6);
+    border-bottom:3px solid #d2b48c;
+    backdrop-filter:blur(5px);
+}
+nav a{
+  text-decoration:none;
+  color:#fffaf0;
+  font-weight:bold;
+  font-size:1.2em;
+  letter-spacing:1px;
+  text-shadow:1px 1px 3px #000;
+  transition:color 0.3s, trasnform 0.3s;
+  position:relative;
+}
+nav a:hover{
+  color:#ffd700;
+  transform:scale(1.1);
+}
+nav a::after{
+  content:"";
+  display:block;
+  height:2px;
+  width:0;
+  background:#ffd700;
+  transition:width 0.3s;
+  margin-top:3px;
+}
+nav a:hover::after{
+  width:100%
 }
 nav ul{
-    margin: 10px;
-    padding: 10px;
+    margin: 0;
+    padding: 0;
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 40px;
     font-size: 100%;
 }
 
@@ -98,10 +127,12 @@ nav ul{
   border-radius: 10px;
   color:aliceblue;
   font-size:1.6em;
+  text-align:center;
 }
 .history h2,
 .history p{
   font-size: 1.6em;
+  text-align:center;
   margin-bottom: 20px;
   background-color:rgba(91,51,14,0.7);
   display:inline-block;
@@ -110,11 +141,17 @@ nav ul{
   color:aliceblue
 }
 .history-content img{
-  width: 300px;
+  width: 400px;
   height: auto;
   border:5px solid #d2b48c;
   box-shadow:0 4px 12px rgba(0,0,0,0.7);
   display:block;
   margin:0 auto;
 
+}
+.hero{
+  text-align:center;
+}
+.history{
+  text-align:center;
 }
