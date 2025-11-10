@@ -1,7 +1,7 @@
 
 body{
     
-    height: 150vh;
+    height: 180vh;
     margin: 0;
     font-family: Arial, sans-serif;
     background-image: url(Images/wallpaper_gravityfalls.png);
@@ -25,7 +25,7 @@ h1{
 }
 nav{
     background-color:rgba(91,51,14,0.9);
-    padding: 2em 0;
+    padding: 2.2em 0;
     position: sticky;
     top:0;
     z-index:1000;
@@ -58,7 +58,7 @@ nav a::after{
   margin-top:3px;
 }
 nav a:hover::after{
-  width:100%
+  width:100%;
 }
 nav ul{
     margin: 0;
@@ -66,7 +66,7 @@ nav ul{
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 60px;
     font-size: 100%;
 }
 
@@ -154,4 +154,47 @@ nav ul{
 }
 .history{
   text-align:center;
+}
+.lantern{
+  position:fixed;
+  bottom:20px;
+  right:25px;
+  width:80px;
+  height:80px;
+  background-image:url('Images/pngimg.com\ -\ lantern_PNG1.png');
+  background-size:contain;
+  background-repeat:no-repeat;
+  filter:drop-shadow(0 0 10px rgba(255,215,0,0.6));
+  animation:lanternFlicker 3s infinite ease-in-out;
+  opacity:0.9;
+  z-index:999;
+}
+@keyframes lanternFlicker{
+0%, 100%{
+  filter:drop-shadow(0 0 8px rgba(255,215,0,0.6));
+  opacity:0.9;
+}
+50%{
+  filter:drop-shadow(0 0 15px rgba(255,215,0,0.9));
+  opacity:1;
+}
+75%{
+  filter:drop-shadow(0 0 5px rgba(255,215,0,0.4));
+  opacity:0.85;
+}
+}
+.quote{
+  text-align:center;
+  font-family:Arial, Helvetica, sans-serif;
+  color:#d2b48c;
+  background-color:rgba(0,0,0,0.7);
+  padding:40px 20px;
+  font-size:1.4em;
+  letter-spacing:1px;
+  border-top:3px solid #d2b48c;
+  border-bottom:3px solid #d2b48c;
+  text-shadow:1px 1px 3px #000;
+}
+.quote:hover{
+  text-shadow:0 0 10px #ffea94;
 }
